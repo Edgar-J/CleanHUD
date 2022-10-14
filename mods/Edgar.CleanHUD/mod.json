@@ -1,0 +1,19 @@
+{
+	"Name": "Edgar.CleanHUD",
+	"Description": "Replaces default hud elements with custom ones.",
+	"LoadPriority": 2,
+	"RequiredOnClient": false,
+	"Version": "1.0.1",
+
+	"Scripts":
+	[
+		{
+			"Path": "cleanHud.nut",
+			"RunOn": "CLIENT",
+			"ClientCallback":
+			{
+				"After": "customHudInit"
+			}
+		}
+	]
+}
